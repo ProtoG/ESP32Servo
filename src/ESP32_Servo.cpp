@@ -217,9 +217,9 @@ bool Servo::attached()
 
 void Servo::setTimerWidth(int value)
 {
-    // only allow values between 16 and 20
-    if (value < 16)
-        value = 16;
+    // only allow values between 2 and 20 ***************************************************************************************
+    if (value < 2)
+        value = 2;
     else if (value > 20)
         value = 20;
         
